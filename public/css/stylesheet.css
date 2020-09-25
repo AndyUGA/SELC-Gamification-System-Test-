@@ -1,0 +1,92 @@
+
+
+:root {
+    --UVSASE-dark-blue: #114b5f;
+    --UVSASE-yellow: #fed766;
+    --UVSASE-light-blue: #009fb7;
+    --UVSASE-dark-grey: #696733;
+    --UVSASE-light-grey: #eff1f3;
+}
+
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.logo {
+    max-width: 8%;
+}
+label {
+    font-weight: 500;
+}
+
+.titleFont {
+    color: #009FB7;
+    font-size: 3rem;
+}
+
+.UVSASEColors {
+    color: white !important;
+    background-color: var(--UVSASE-light-blue) !important;
+    border-color: var(--UVSASE-light-blue) !important;
+}
+
+.leaderboardRowColor {
+
+    background-color: var(--UVSASE-light-blue) !important;
+    border-color: var(--UVSASE-light-blue) !important;
+}
+
+.progress-bar-yellow {
+    background-color: var(--UVSASE-yellow) !important;
+}
+
+
+.nameFontSize {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 500;
+}
+
+.pointsFontSize {
+    font-size: 2rem;
+    color: black !important;
+    font-weight: 200;
+}
+
+.pointsHeight {
+    height: 20px;
+}
+
+a {
+    color: white !important;
+   
+}
+
+.underLineName {
+    text-decoration: none !important;
+    border-bottom: 1px solid white;
+}
+
+.UVSASENavbarColor {
+    background-color: var(--UVSASE-dark-blue) !important;
+}
+
+.linkColor {
+    color: white !important;
+    text-decoration: underline;
+}
+
+
+@media screen and (min-width: 700px) {
+    .rowHeight {
+        min-height: 4rem;
+    }
+}
+
+@media screen and (max-width: 800rpx) {
+    .logo {
+        max-width: 40%;
+    }
+}

@@ -1,0 +1,46 @@
+<div class="table-responsive">
+  <table class="table">
+    <thead class="">
+      <tr class="text-center">
+        <th scope="col">Name</th>
+        <th scope="col">School</th>
+        <th scope="col">Game</th>
+        <th scope="col">Points</th>
+
+        <% if(title == "history") { %>
+        <th scope="col">Time</th>
+        <% } %>
+      </tr>
+    </thead>
+    <tbody>
+      <% for(let i = 0; i < result.length; i++) { %>
+
+      <tr class="text-center">
+
+        <td>
+          <%= result[i].name%>
+        </td>
+        <td>
+          <%= result[i].team%>
+        </td>
+        <td>
+          <%= result[i].game%>
+        </td>
+        <td>
+          <%= result[i].points%>
+        </td>
+
+        <% if(title == "history") { %>
+        <td>
+          <%= result[i].date%>
+        </td>
+
+        <% } %>
+
+      </tr>
+
+      <% } %>
+
+    </tbody>
+  </table>
+</div>
