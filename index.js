@@ -28,9 +28,6 @@ client.connect(err => {
 
     //Render Homepage
     app.get('/', (req, res) => {
-
-
-        
         res.render("home", {
           title: "SELC"
         });
